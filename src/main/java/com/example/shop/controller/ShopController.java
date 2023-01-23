@@ -17,5 +17,17 @@ public class ShopController {
         return "hello-world";
     }
 
+    @GetMapping("/user")
+    public String user(Model model){
+
+        return "user";
+    }
+
+    @GetMapping("/admin")
+    public String admin(Model model){
+
+        return "admin";
+    }
+
 
 }
